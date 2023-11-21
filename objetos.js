@@ -1,3 +1,5 @@
+let registro = [];
+
 const caso1 = new Caso("Assombração em Okinawa", "Okinawa", "Nao Yoshida", "Ao voltar do trabalho, Nao Yoshida foi perseguido por um vulto que foi identificado e descrito por testemunhas oculares como 'uma mulher serrada ao meio que corria com as mãos'. Após um tempo, uma orelha e um pé de Yoshida foram achados em locais diferentes", "18/01/1968", "O corpo dele encontrado esquartejado, tendo sua cabeça pendurada na estação do trem", "Teke-Teke");
 
 const caso2 = new Caso("Fria Agonia em Hokkaido", "Hokkaido", "Emi Takahashi", "Emi Takahashi desapareceu misteriosamente durante uma tempestade de neve. Seu corpo foi encontrado congelado e com marcas estranhas, como se garras afiadas a tivessem arrastado para fora de casa.", "07/03/1985", "Caso não resolvido, a causa da morte permanece desconhecida.", "Yuki-onna");
@@ -17,6 +19,10 @@ const caso8 = new Caso("Elevador Macabro em Tokyo", "Tokyo", "Yuki Suzuki", "Yuk
 const caso9 = new Caso("Visões da Mulher de Branco em Hiroshima", "Hiroshima", "Ryuji Nakamura", "Ryuji Nakamura foi atormentado por visões de uma mulher de branco antes de sua morte. Seu corpo foi descoberto em um campo, com marcas de arranhões por todo o corpo.", "19/06/1996", "A polícia atribuiu a morte a animais selvagens, mas moradores acreditam em uma maldição.", "Funayurei");
 
 const caso10 = new Caso("Diário Obscuro em Nagoya", "Nagoya", "Aya Nakamura", "Aya encontrou um diário antigo em uma loja de antiguidades. Após ler as páginas, ela começou a agir de maneira estranha, murmurando palavras incompreensíveis. Seu corpo foi encontrado com as mãos cobertas de sangue.", "19/02/2023", "Morte por auto-mutilação em transe", "Jorogumo");
+
+registro.push(caso1, caso2, caso3, caso4, caso5, caso6, caso7, caso8, caso9, caso10)
+console.log(registro);
+
 
 
 
@@ -61,3 +67,7 @@ const youkai8 = new Youkai("Aka Manto", "A", "Enganoso");
 const youkai9 = new Youkai("Funayurei", "C", "Vingativo");
 
 const youkai10 = new Youkai("Jorogumo", "S", "Assustador");
+
+
+
+ 
