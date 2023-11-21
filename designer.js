@@ -1,6 +1,6 @@
 function card (props) {
     return ` <div
-    class="card" id = {${props.id}}>
+    class="card" id = '${props.id}'>
       <img src="imagens/teketeke.png" />
   
       <div class="div-titulo">
