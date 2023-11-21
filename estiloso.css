@@ -88,10 +88,10 @@
 .descricao {
     font-size: 0.9rem;
     color: #ffffff;
-    text-shadow: -1px -1px 7px #ff0000,  
-    1px -1px 7px #ff0000,
-   -1px 1px 7px #ff0000,
-    1px 1px 7px #ff0000;
+    text-shadow: -1px -1px 7px #a30000,  
+    1px -1px 7px #880000,
+   -1px 1px 7px #800000,
+    1px 1px 7px #790000;
 }
 
 .card:hover {

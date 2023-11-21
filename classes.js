@@ -7,6 +7,7 @@ class Caso {
     /**
      * Construtor da classe Caso.
      * @constructor
+     * @param {string} nomeCaso - Nome do caso paranormal.
      * @param {string} local - O local onde o caso ocorreu.
      * @param {string} nomeVitima - O nome da vítima envolvida no caso.
      * @param {string} acontecimento - Descrição do acontecimento paranormal.
@@ -14,7 +15,8 @@ class Caso {
      * @param {string} resolucao - Resolução ou desfecho do caso.
      * @param {string} espirito - Nome do espírito envolvido, se aplicável.
      */
-    constructor(local, nomeVitima, acontecimento, data, resolucao, espirito) {
+    constructor(nomeCaso, local, nomeVitima, acontecimento, data, resolucao, espirito) {
+        this.nomeCaso = nomeCaso;
         this.local = local;
         this.nomeVitima = nomeVitima;
         this.acontecimento = acontecimento;
