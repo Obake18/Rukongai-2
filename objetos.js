@@ -1,4 +1,3 @@
-let registro = [];
 
 const caso1 = new Caso("Assombração em Okinawa", "Okinawa", "Nao Yoshida", "Ao voltar do trabalho, Nao Yoshida foi perseguido por um vulto que foi identificado e descrito por testemunhas oculares como 'uma mulher serrada ao meio que corria com as mãos'. Após um tempo, uma orelha e um pé de Yoshida foram achados em locais diferentes", "18/01/1968", "O corpo dele encontrado esquartejado, tendo sua cabeça pendurada na estação do trem", "Teke-Teke");
 
@@ -20,19 +19,16 @@ const caso9 = new Caso("Visões da Mulher de Branco em Hiroshima", "Hiroshima", 
 
 const caso10 = new Caso("Diário Obscuro em Nagoya", "Nagoya", "Aya Nakamura", "Aya encontrou um diário antigo em uma loja de antiguidades. Após ler as páginas, ela começou a agir de maneira estranha, murmurando palavras incompreensíveis. Seu corpo foi encontrado com as mãos cobertas de sangue.", "19/02/2023", "Morte por auto-mutilação em transe", "Jorogumo");
 
-registro.push(caso1, caso2, caso3, caso4, caso5, caso6, caso7, caso8, caso9, caso10)
-console.log(registro);
 
 
 
+const vit1 = new Vitima("Nao Yoshida", "40 anos", "morto", "Após seu cadáver, todos os policiais pediram um dia de folga")
 
-const vit1 = new Vitima ("Nao Yoshida", "40 anos", "morto", "Após seu cadáver, todos os policiais pediram um dia de folga")
+const vit2 = new Vitima("Emi Takahashi", "25 anos", "morto", "Moradores de seu bairro diziam que ele estava em transe seguindo uma figura pálida, a qual era rodeada de neve")
 
-const vit2 = new Vitima ("Emi Takahashi", "25 anos", "morto", "Moradores de seu bairro diziam que ele estava em transe seguindo uma figura pálida, a qual era rodeada de neve")
+const vit3 = new Vitima("Kazuki Yamamoto", "20 anos", "morto", "Os vizinhos escutaram uma noite de gritos e choros carregados de horror e dor")
 
-const vit3 = new Vitima ("Kazuki Yamamoto", "20 anos", "morto", "Os vizinhos escutaram uma noite de gritos e choros carregados de horror e dor")
-
-const vit4 = new Vitima ("Sakura Kobayashi", "35 anos", "morta", "- 'Eu não consigo tirar de minha mente, aquela visão horrenda. Se algum deus existe, que ele me ajude.' - A frase foi escutada com choros e soluços durante a noite anterior ao seu desaparecimento")
+const vit4 = new Vitima("Sakura Kobayashi", "35 anos", "morta", "- 'Eu não consigo tirar de minha mente, aquela visão horrenda. Se algum deus existe, que ele me ajude.' - A frase foi escutada com choros e soluços durante a noite anterior ao seu desaparecimento")
 
 const vit5 = new Vitima("Takeshi Sato", "28 anos", "morto", "Amigos próximos relataram que ele começou a agir de maneira paranóica, sempre olhando por cima dos ombros e murmurando sobre uma máscara assustadora.");
 
@@ -70,4 +66,6 @@ const youkai10 = new Youkai("Jorogumo", "S", "Assustador");
 
 
 
- 
+;
+let registro = [caso1, caso2, caso3, caso4, caso5, caso6, caso7, caso8, caso9, caso10].map((caso, index) => { return { ...caso, id: index } })
+console.log(registro);

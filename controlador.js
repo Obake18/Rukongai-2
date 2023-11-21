@@ -1,6 +1,8 @@
 const divCaso = document.querySelector("#idCaso")
-divCaso.innerHTML = card({
-    nomeCaso : "hshshshshs",
-    data : "11/09/2001",
-})
+divCaso.innerHTML = registro.map(({ nomeCaso, data,id }) => card({
+    nomeCaso: nomeCaso,
+    data: data,
+    id : id,
+}))
+document.querySelectorAll(".card").forEach((card) => card.addEventListener("click", (card) => console.log(card.target)))
 console.log(divCaso)
