@@ -1,0 +1,75 @@
+.card-expandido {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 800px;
+}
+
+.card-expandido>.avatar {
+    max-height: 300px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.card-expandido>.conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 24px;
+}
+
+.card-expandido>.conteudo>.titulo {
+    margin: 0;
+}
+
+.card-expandido>.barra-botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 8px 24px;
+}
+
+.card-expandido>.barra-botoes>button {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial';
+    gap: 16px;
+    background-image: url("imagens/teketeke.png");
+}
+
+.card {
+    margin: 10px;
+    background-color: #1d1c1c;
+    padding: 20px;
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.card .titulo {
+    color: #dd1717;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(114, 0, 0, 0.795);
+}
+
+.descricao {
+    font-size: 0.9rem;
+    color: #ff0000;
+    text-shadow: 1px 1px 2px rgba(155, 0, 0, 0.6);
+}
+
+.card:hover {
+    filter: brightness(1.2);
+    /* Ajusta o brilho quando o mouse passa sobre o card */
+}
