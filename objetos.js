@@ -12,7 +12,7 @@ const caso6 = new Caso("Fukuoka", "Haruka Ito", "Haruka Ito foi encontrada morta
 
 const caso7 = new Caso("Osaka", "Tomo Tanaka", "Tomo Tanaka desapareceu depois de visitar um santuário assombrado. Seu corpo foi descoberto pendurado em uma árvore próxima, com inscrições estranhas nas mãos.", "10/12/1989", "Considerado um suicídio, mas moradores locais acreditam em uma maldição do santuário.", "Jibakurei");
 
-const caso8 = new Caso("Tokyo", "Yuki Suzuki", "Yuki Suzuki foi encontrado morto em um elevador antigo. Câmeras de segurança mostram a porta do elevador abrindo e fechando sozinha antes de sua morte.", "05/02/2005", "Oficialmente considerado um acidente, mas rumores de atividade paranormal persistem no prédio.", "Aka Manto");
+const caso8 = new Caso("Tokyo", "Yuki Suzuki", "Yuki Suzuki foi encontrada morta em um elevador antigo. Câmeras de segurança mostram a porta do elevador abrindo e fechando sozinha antes de sua morte.", "05/02/2005", "Oficialmente considerado um acidente, mas rumores de atividade paranormal persistem no prédio.", "Aka Manto");
 
 const caso9 = new Caso("Hiroshima", "Ryuji Nakamura", "Ryuji Nakamura foi atormentado por visões de uma mulher de branco antes de sua morte. Seu corpo foi descoberto em um campo, com marcas de arranhões por todo o corpo.", "19/06/1996", "A polícia atribuiu a morte a animais selvagens, mas moradores acreditam em uma maldição.", "Funayurei");
 
@@ -23,3 +23,40 @@ const vit1 = new Vitima ("Nao Yoshida", "40 anos", "morto", "Após seu cadáver,
 
 const vit2 = new Vitima ("Emi Takahashi", "25 anos", "morto", "Moradores de seu bairro diziam que ele estava em transe seguindo uma figura pálida, a qual era rodeada de neve")
 
+const vit3 = new Vitima ("Kazuki Yamamoto", "20 anos", "morto", "Os vizinhos escutaram uma noite de gritos e choros carregados de horror e dor")
+
+const vit4 = new Vitima ("Sakura Kobayashi", "35 anos", "morta", "- 'Eu não consigo tirar de minha mente, aquela visão horrenda. Se algum deus existe, que ele me ajude.' - A frase foi escutada com choros e soluços durante a noite anterior ao seu desaparecimento")
+
+const vit5 = new Vitima("Takeshi Sato", "28 anos", "morto", "Amigos próximos relataram que ele começou a agir de maneira paranóica, sempre olhando por cima dos ombros e murmurando sobre uma máscara assustadora.");
+
+const vit6 = new Vitima("Haruka Ito", "22 anos", "morta", "Testemunhas afirmaram ter ouvido gritos vindos do beco na noite do incidente. A área agora é evitada por todos.");
+
+const vit7 = new Vitima("Tomo Tanaka", "33 anos", "morto", "Amigos próximos disseram que ele começou a agir de maneira estranha após visitar o santuário. Algumas pessoas acreditam que ele foi possuído por uma entidade sobrenatural.");
+
+const vit8 = new Vitima("Yuki Suzuki", "15 anos", "morta", "Colegas de trabalho afirmam que Yuki estava obcecada por histórias de fantasmas antes de sua morte. Alguns acreditam que ela atraiu atividades paranormais devido a essa obsessão.");
+
+const vit9 = new Vitima("Ryuji Nakamura", "26 anos", "morto", "Moradores locais relataram ter visto uma mulher de branco nas proximidades antes do desaparecimento de Ryuji. Alguns acreditam que ele foi vítima de uma maldição.");
+
+const vit10 = new Vitima("Aya Nakamura", "23 anos", "morta", "Amigos próximos disseram que Aya começou a agir de maneira estranha após encontrar o diário antigo. Eles afirmam ter ouvido vozes estranhas quando estavam perto dela.");
+
+
+
+const youkai1 = new Youkai("Teke-Teke", "S", "Vingativo");
+
+const youkai2 = new Youkai("Yuki-onna", "A", "Assustador");
+
+const youkai3 = new Youkai("Kuchisake-onna", "B", "Vingativo");
+
+const youkai4 = new Youkai("Onryo", "A", "Vingativo");
+
+const youkai5 = new Youkai("Noh Mask", "C", "Enganoso");
+
+const youkai6 = new Youkai("Kawa-no-kami", "S", "Vingativo");
+
+const youkai7 = new Youkai("Jibakurei", "B", "Assustador");
+
+const youkai8 = new Youkai("Aka Manto", "A", "Enganoso");
+
+const youkai9 = new Youkai("Funayurei", "C", "Vingativo");
+
+const youkai10 = new Youkai("Jorogumo", "S", "Assustador");

@@ -58,15 +58,40 @@
 }
 
 .card .titulo {
-    color: #dd1717;
+    color: #ffffff;
     font-size: 1.2rem;
     text-shadow: 2px 2px 4px rgba(114, 0, 0, 0.795);
+    animation: piscar 2.5s ease-in-out infinite; /* Adiciona a animação de piscar */
 }
 
+@keyframes piscar {
+
+    
+    25%, 75% {
+        text-shadow: -1px -1px 7px #ff0000,  
+    1px -1px 7px #ff0000,
+   -1px 1px 7px #ff0000,
+    1px 1px 7px #ff0000;
+    }
+}
+.div-titulo{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-descricao{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
 .descricao {
     font-size: 0.9rem;
-    color: #ff0000;
-    text-shadow: 1px 1px 2px rgba(155, 0, 0, 0.6);
+    color: #ffffff;
+    text-shadow: -1px -1px 7px #ff0000,  
+    1px -1px 7px #ff0000,
+   -1px 1px 7px #ff0000,
+    1px 1px 7px #ff0000;
 }
 
 .card:hover {
